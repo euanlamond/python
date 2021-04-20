@@ -1,0 +1,7 @@
+import pandas as pd
+import numpy as np
+
+url = 'https://raw.githubusercontent.com/icyrockcom/country-capitals/master/data/country-list.csv'
+
+url_data = pd.read_table(url,sep='\t')
+url_data.head(3)
